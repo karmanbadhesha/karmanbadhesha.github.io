@@ -1,0 +1,153 @@
+Axios, <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Karman Badhesha</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="nav-about"><a href="#about">About</a></li>
+            <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+            <li id="nav-contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container-fluid">
+      
+      <div class="row cover top">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-xs-12 headline">
+              <h1 class="text-center">Hi, I'm Karman</h1>
+              <p class="lead text-center">A passionate, critical thinking developer.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 center-block text-center">
+              <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="about" class="row cover">
+        <h2 class="text-center">About Me</h2>
+        <div class="row">
+          <div class="col-md-6 text-center about-info">
+            <p class="text-center">I'm a Calgary based full-stack developer, hockey fan and computer hardware enthusiast looking to join an organization that allows me to utilize my strengths while still allowing for the opportunity to grow. I attended Mount Royal University and graduated with a BBA in Accounting and am in my final semester at SAIT in the Information Technology program with a major in Software Development. I consider myself as a vivid listener as well as a quick leaner. </p>
+          </div>
+          <div class="col-md-6 about-tools">
+            <p class="text-center">Here's a few of the tools I use</p>
+              <div class="col-xs-6">
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript</li>
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li>Java</li>
+                  <li>NoSQL (MongoDB)</li>
+                  <li>SQL (Oracle, MySQL)</li>
+                  <li>Git, Azure DevOps</li>
+                  <li>Windows/Linux</li>
+                </ul>
+              </div>
+            
+          </div>
+          <div class="row break">
+            <div class="col-md-6 about-last">
+              <p class="text-center">Check out my latest projects <span class="glyphicon glyphicon-arrow-down"></span></p>
+            </div>
+          </div>
+        </div> 
+      </div><!-- End #About -->
+
+      <div id="portfolio" class="row cover">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="container">
+          <div class="row portfolio-projects"> <!-- Two project row-->
+            <div class="col-lg-6"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="portfolio-projects--title">SAIT Capstone</h4>
+                  <p class="portfolio-projects--desc">Web application that allows users to better facilitate conversations with their medical providers</p>
+                  <p class="portfolio-projects--desc">Uses: MongoDB, Express, React.js, Node.js, RESTful API</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://github.com/karmanbadhesha/SaitCapstone" role="button">View Code</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="portfolio-projects--image" src="https://hatrabbits.com/wp-content/uploads/2018/10/risky-assumptions.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6"> <!--2nd side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <h4 class="portfolio-projects--title">Is It Good?</h4>
+                  <p class="portfolio-projects--desc">Web app that utilizes an external API to deliver search results to the user</p>
+                  <p class="portfolio-projects--desc">Uses: React.js, MaterialUI, Axios, TheMovieDB API</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://is-it-good-app.herokuapp.com/" role="button">View Demo</a>
+                                     <a class="btn btn-rounded portfolio-projects--btn" href="https://github.com/karmanbadhesha/IsItGood" role="button">View Code</a>
+                </div>
+                <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <img class="img-rounded portfolio-projects--image" src="https://hatrabbits.com/wp-content/uploads/2018/10/risky-assumptions.jpg">
+                </div>
+              </div>
+            </div>
+          </div><!--end Two project row-->
+<!--
+          <div class="row portfolio-projects"> <!-- Opposite Two project row-->
+            <div class="col-lg-6"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="portfolio-projects--title">Rock-paper-scissors</h4>
+                  <p class="portfolio-projects--desc">Multiplayer game that utilizes sockets & multithreading</p>
+                  <p class="portfolio-projects--desc">Uses: Java</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://github.com/karmanbadhesha/Rock-paper-scissors" role="button">View Code</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="img-rounded portfolio-projects--image" src="https://hatrabbits.com/wp-content/uploads/2018/10/risky-assumptions.jpg">
+                </div>
+              </div>
+            </div>
+
+        </div>
+        </div>
+      </div><!-- End #Portfolio -->
+
+      <div id="contact" class="row cover bottom">
+        <h2 class="text-center contact-header">Contact Me</h2>
+        <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> karmanbadhesha@gmail.com</p>
+        <div class="text-center contact-social-icons">
+          <p>Or find me on:</p>
+          <ul class="centered">
+            <a href="https://www.linkedin.com/in/karmanb/"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
+            <a href="https://github.com/karmanbadhesha"><li><i class="fa fa-github"></i> Github</li></a>
+
+          </ul>
+        </p>
+        
+      </div><!-- End #Contact -->
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+
+  </body>
