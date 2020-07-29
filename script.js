@@ -27,13 +27,17 @@ $(document).ready(function () {
         e.preventDefault();
         $.scrollTo($("#portfolio"), 1000);
     });
+    $("#nav-description").click(function (e) {
+        e.preventDefault();
+        $.scrollTo($("#description"), 1000);
+    });
+    $("#nav-screenshots").click(function (e) {
+        e.preventDefault();
+        $.scrollTo($("#screenshots"), 1000);
+    });
     $("#nav-contact").click(function (e) {
         e.preventDefault();
         $.scrollTo($("#contact"), 1000);
-    });
-    $(".navbar-brand").click(function (e) {
-        e.preventDefault();
-        $.scrollTo(0, 1000);
     });
 
 });

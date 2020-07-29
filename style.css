@@ -384,7 +384,7 @@ body>.container-fluid {
 .column {
   float: left;
   width: 25%;
-  padding: 10px;
+  padding: 1px;
 }
 
 /* Style the images inside the grid */
@@ -412,7 +412,7 @@ body>.container-fluid {
 
 /* The expanding image container (positioning is needed to position the close button and the text) */
 
-.container {
+.containerDiv {
   position: relative;
   display: none;
 }
