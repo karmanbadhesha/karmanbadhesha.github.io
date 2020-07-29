@@ -110,7 +110,7 @@ body>.container-fluid {
 .column img {
   opacity: 0.8;
   cursor: pointer;
-  width: 100%;
+  width: 200px;
 }
 
 .column img:hover {
