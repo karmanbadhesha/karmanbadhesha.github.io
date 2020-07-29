@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="lang=" en"">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Karman Badhesha Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Karman Badhesha</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="nav"><a href="index.html">Home</a></li>
+                        <li id="nav-description"><a href="#screenshots">Description</a></li>
+                        <li id="nav-screenshots"><a href="#screenshots">Screenshots</a></li>
+                        <li id="nav-contact"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <!-- Begin page content -->
+        <div class="container-fluid">
+            <div id="description" class="row cover">
+                <h2 class="text-center">Rock Paper Scissors</h2>
+                <div class="row">
+                    <div class="col-md-6 text-center about-info">
+                        <p class="text-center">Rock Paper Scissors is a multiplayer game that connects two players
+                            together over a local network. Users will wait for the other to make a selection. Upon both
+                            users making a selection, the game will determine the winner and allow users to play again.
+                            Users are also able to send messages across the server.
+                        </p>
+                        <a class="btn btn-rounded portfolio-projects--btn"
+                            href="https://github.com/karmanbadhesha/Rock-paper-scissors" role="button">View Code</a>
+                    </div>
+                    <div class="col-md-6 about-tools">
+                        <p class="text-center">Stack used</p>
+                        <div class="col-xs-6">
+                            <ul>
+                                <li>Java</li>
+                                <li>JavaFX</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row break">
+                        <div class="col-md-6 about-last">
+                            <p class="text-center">View screenshots <span class="glyphicon glyphicon-arrow-down"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End #About -->
+
+            <!-- The grid: four columns -->
+            <div class="container-fluid">
+                <div style="text-align:center" id="screenshots">
+                    <h2>Screenshots</h2>
+                    <p>Click on the images below:</p>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="img/server_gui.PNG" alt="Server GUI" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/login_gui.PNG" alt="Login screen" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/main_screen.PNG" alt="Main game screen" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="img/lose_screen.PNG" alt="Lose screen" onclick="myFunction(this);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- The expanding image container -->
+            <div class="containerDiv">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                <!-- Expanded image -->
+                <img id="expandedImg" class="expandedImg">
+
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+
+
+            <div id="contact" class="row cover bottom">
+                <h2 class="text-center contact-header">Contact Me</h2>
+                <p class="text-center contact-email">Get in touch with me <span
+                        class="glyphicon glyphicon-arrow-right"></span> karmanbadhesha@gmail.com</p>
+                <div class="text-center contact-social-icons">
+                    <p>Or find me on:</p>
+                    <ul class="centered">
+                        <a href="https://www.linkedin.com/in/karmanb/">
+                            <li><i class="fa fa-linkedin-square"></i> LinkedIn</li>
+                        </a>
+                        <a href="https://github.com/karmanbadhesha">
+                            <li><i class="fa fa-github"></i> Github</li>
+                        </a>
+
+                    </ul>
+                    </p>
+
+                </div><!-- End #Contact -->
+
+            </div>
+
+            <footer class="footer">
+                <div class="container">
+                </div>
+            </footer>
+
+    </body>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
